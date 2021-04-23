@@ -1,4 +1,4 @@
-# Binary Logistic Regression 
+# Some background about Binary Logistic Regression 
 # diab = 90% , non diab =10% 
 # y = b0+ b1x1+b2x2+b3x3+....bnxn
 # heart = age + type of work + WLB + exr. + BMI 
@@ -10,37 +10,7 @@
 # log(p/1-p)[-inf to +inf] = b0+b1x1+b2x2+b3x3+....bnxn [-inf to +inf ] 
 # y = p = p/1-p = log(p/1-p) = LOGIT / LOGISTIC / LINK 
 
-#p(head) = 0.5 
-# odds in favour = p/1-p = p / q 
-# odd against = 1-p / p = q/p 
 
-# odds ratio 
-#p(head) = 0.5 
-# odd(head)= 0.5/0.5 = 1 [controlled ] 
-
-# loaded coin : p(head)=0.7 , 1-p = 0.3 = 0.7/0.3 = 2.333 
-# [experimental] 
-
-# R1/R0 = 2.33/1= 2.33 approx 2 
-
-# the likelihood of getting head in loaded coin is 2 times higher than 
-# the likelihood of getting head in normal coin 
-
-
-# Example 2 
-#odd(E)=80/20= 4 
-#odd(C)=55/45=1.2 
-# odds ratio = 4/1.2 = 3.3 
-# likelihood of people coming for voting increases thrice in exp group
-# than from t
-
-# than from the control group ; campign is sucessfull 
-#Example 3
-#odd(E)= 30/70= 0.42 
-# odd(C)= 45/55 = 0.81 
-#odds ratio = 0.42 /0.80 = 0.5 
-# chances of getting ill due to epidemic reduces by half in the region 
-# where the vaccination was performed .
 
  
 #load data Bank loan 
